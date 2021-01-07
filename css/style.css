@@ -1,0 +1,53 @@
+header {
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+  
+}
+header img, h2{
+    display: inline;
+    float: left;
+}
+header div {
+    margin-top: 10px;
+    float: right;
+}
+header h4 {
+    margin-top:50px;
+    margin-left: 10px;
+    display: block;
+    float: left;
+}
+header img{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+section {
+    width: 100%;
+}
+section h1 {
+    margin-left: 20%;
+}
+section img{
+    margin:auto;
+    display: block;
+}
+section p {
+    display: block;
+    margin-left: 25%;
+    text-align: center;
+    text-indent: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+}
+section .first-p {
+  margin-top: 80px;
+}
+section.check-list{
+
+    margin: auto;
+    background-image: url("/lab-assets/list-bg.png");
+}
+.check-list div {
+display: inline-block;
+}
